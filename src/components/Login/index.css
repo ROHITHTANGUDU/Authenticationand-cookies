@@ -1,0 +1,138 @@
+.logo
+{
+    width: 300px;
+    margin-bottom: 20px;
+}
+.login-image
+{
+    width: 90%;
+
+}
+.login-background
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    height: 100vh;
+}
+
+.login-details
+{
+    align-self: start;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.username-input
+{
+    height: 30px;
+    width: 90%;
+    background-color: #d7dfe9;
+    border-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.password-input
+{
+    height: 30px;
+    width: 90%;
+    background-color: #d7dfe9;
+    border-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.username-label
+{
+    color: #475569;
+    font-weight: bold;
+  
+
+}
+
+.password-label
+{
+    color: #475569;
+    font-weight: bold;
+}
+
+.button
+{
+    width: 90%;
+    background-color: #0b69ff;
+    color: white;
+    text-align: center;
+    border-style: none;
+    height: 30px;
+    border-radius: 10px;
+
+}
+
+.logo-md
+{
+    display: none;
+}
+
+
+@media screen and (min-width : 992px)
+{
+    .logo-md
+    {
+        width: 300px;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .button{
+        width: 60%;
+    }
+    .username-input
+    {
+        width: 60%;
+    }
+    .password-input
+    {
+        width: 60%;
+    }
+
+    .login-background
+    {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: space-between;
+    }
+    .logo{
+        display: none;
+    }
+    .login-image
+    {
+        /* border-style: solid; */
+       
+        align-self:center;
+        width: 45%;
+        order: 1;
+        
+    }
+    .login-details
+    {
+        /* border-style: solid; */
+        align-self: center;
+        width: 45%;
+        order: 2;
+        height:400px;
+        padding-top: 50px;
+       
+ 
+
+    }
+
+     
+   
+
+}
